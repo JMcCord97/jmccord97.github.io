@@ -151,6 +151,8 @@ Error message and password prompt
 
 <li>$:/GitHub/Username</li>
 
+<li>$:/Import</li>
+
 <li>$:/isEncrypted</li>
 
 <li>$:/SiteSubtitle</li>
@@ -187,7 +189,7 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth</li>
 
-<li>Draft of 'New Tiddler' by CMcCord</li>
+<li>CharacterTemplate</li>
 
 <li>Draft of 'Paderau Kiran' by CMcCord</li>
 
@@ -9592,6 +9594,16 @@ Error message and password prompt
 <div created="20200617151756003" creator="CMcCord" modified="20200617151805197" modifier="CMcCord" title="$:/GitHub/Username">
 <pre>JMcCord97</pre>
 </div>
+<div plugin-type="import" status="pending" title="$:/Import" type="application/json">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;Untitled&quot;: {
+            &quot;title&quot;: &quot;Untitled&quot;,
+            &quot;text&quot;: &quot;\r\n&quot;
+        }
+    }
+}</pre>
+</div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
@@ -9622,7 +9634,7 @@ Error message and password prompt
 <div created="20200617151638803" creator="C" modified="20200617151640310" modifier="CMcCor" title="$:/status/UserName">
 <pre>CMcCord</pre>
 </div>
-<div created="20200617173820449" creator="CMcCord" list="$:/ControlPanel GettingStarted" modified="20200617173820449" modifier="CMcCord" title="$:/StoryList">
+<div created="20200617173820449" creator="CMcCord" list="CharacterTemplate [[Draft of 'Paderau Kiran' by CMcCord]] GettingStarted" modified="20200617173954947" modifier="CMcCord" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9683,7 +9695,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200617153900146" creator="CMcCord" modified="20200617153906823" modifier="CMcCord" title="$:/temp/NewTagName">
+<div created="20200617153900146" creator="CMcCord" modified="20200617174210889" modifier="CMcCord" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.22">
@@ -9804,8 +9816,10 @@ Error message and password prompt
 <div created="20200617155412037" creator="CMcCord" modified="20200617155414124" modifier="CMcCord" title="$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth">
 <pre>1000px</pre>
 </div>
-<div caption="Name as shown in menu" created="20200617153945941" creator="CMcCord" draft.of="New Tiddler" draft.title="CharacterTemplate" modified="20200617155338880" modifier="CMcCord" tags="$:/tags/TextEditor/Snippet" title="Draft of 'New Tiddler' by CMcCord" type="application/x-tiddler-dictionary">
-<pre></pre>
+<div caption="Name as shown in menu" created="20200617153945941" creator="CMcCord" modified="20200617174220791" modifier="CMcCord" tags="$:/tags/Macro." title="CharacterTemplate" type="text/vnd.tiddlywiki">
+<pre>\define CharacterInfo()
+Hi, I'm $(NAME)$ and I live in $(ADDRESS)$.
+\end</pre>
 </div>
 <div created="20200617153742677" creator="CMcCord" draft.of="Paderau Kiran" draft.title="Paderau Kiran" modified="20200617153920887" modifier="CMcCord" tags="Characters Illumiparty" title="Draft of 'Paderau Kiran' by CMcCord" type="text/html">
 <pre></pre>
