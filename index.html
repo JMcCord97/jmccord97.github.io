@@ -161,6 +161,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/showeditpreview</li>
+
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
@@ -171,11 +173,15 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
+<li>$:/temp/NewTagName--1593157566</li>
+
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
 <li>CharacterView</li>
+
+<li>Draft of 'New Tiddler'</li>
 
 </ul>
 </p>
@@ -9592,6 +9598,9 @@ Error message and password prompt
 <div created="20200617180916067" modified="20200617180922487" title="$:/SiteTitle">
 <pre>Covidian Isles Wiki</pre>
 </div>
+<div created="20200617181724333" modified="20200617181724333" title="$:/state/showeditpreview">
+<pre>yes</pre>
+</div>
 <div created="20200617180935336" modified="20200617181559435" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
@@ -9601,7 +9610,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200617180933028" list="CharacterView" modified="20200617180933028" title="$:/StoryList">
+<div created="20200617180933028" list="[[Draft of 'New Tiddler']] CharacterView" modified="20200617180933028" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9661,6 +9670,9 @@ Error message and password prompt
         }
     }
 }</pre>
+</div>
+<div created="20200617181703225" modified="20200617181704171" title="$:/temp/NewTagName--1593157566">
+<pre>Character</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.22">
 <pre>{
@@ -9771,10 +9783,20 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200617181604621" modified="20200617181657254" tags="$:/tags/Macro" title="CharacterView" type="text/vnd.tiddlywiki">
-<pre>\define sayhi(name:&quot;Bugs Bunny&quot; address:&quot;Rabbit Hole Hill&quot;)
-Hi, I'm $name$ and I live in $address$.
+<div created="20200617181604621" modified="20200617182103612" tags="$:/tags/Macro" title="CharacterView" type="text/vnd.tiddlywiki">
+<pre>\define CharacterInfo(
+NAME:&quot;&quot; &quot;&quot; 
+PICTURE:&quot;&quot; &quot;&quot;
+RACE:&quot;&quot; &quot;&quot;
+CLASS:&quot;&quot; &quot;&quot;
+ALIGNMENT:&quot;&quot; &quot;&quot;
+AGE:&quot;&quot; &quot;&quot;
+HOMETOWN:&quot;&quot; &quot;&quot;)
+|$NAME$|
 \end</pre>
+</div>
+<div created="20200617181659339" draft.of="New Tiddler" draft.title="Paderau Kiran" modified="20200617182101959" tags="" title="Draft of 'New Tiddler'" type="text/vnd.tiddlywiki">
+<pre>&lt;&lt;CharacterInfo &quot;&quot;Paderau Kiran&quot;&quot;&gt;&gt;</pre>
 </div>
 
 
