@@ -9816,10 +9816,15 @@ Error message and password prompt
 <div created="20200617181659339" modified="20200617183004123" tags="Character" title="Paderau Kiran" type="text/vnd.tiddlywiki">
 <pre>&lt;&lt;sayhi &quot;Paderau Kiran&quot; &quot; &quot; &quot;Halfling&quot; &quot;Bard&quot; &quot; &quot; &quot;30&quot; &quot;Kiran Lands&quot;&gt;&gt;</pre>
 </div>
-<div created="20200618072431457" modified="20200618072509875" tags="$:/tags/stylesheet" title="RightAlign" type="text/css">
-<pre>.righttable { margin-left:auto; margin-right:0; float:right }</pre>
+<div created="20200618072431457" modified="20200618072730089" tags="$:/tags/stylesheet" title="RightAlign" type="text/css">
+<pre>.righttable { margin-left:auto; margin-right:0; float:right }
+.righttable::after {
+    content: &quot;&quot;;
+    display: table;
+    clear: both;
+}</pre>
 </div>
-<div created="20200618072551112" modified="20200618072609295" tags="" title="TableTest">
+<div created="20200618072551112" modified="20200618072658934" tags="" title="TableTest">
 <pre>@@.righttable
 |test|this|
 |table|entry|
